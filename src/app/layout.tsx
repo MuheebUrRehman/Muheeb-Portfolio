@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import { Poppins, Roboto } from "next/font/google";
-import { config } from '@fortawesome/fontawesome-svg-core';
-import '@fortawesome/fontawesome-svg-core/styles.css'; // Import Font Awesome CSS
+import { config } from "@fortawesome/fontawesome-svg-core";
+import "@fortawesome/fontawesome-svg-core/styles.css"; // Import Font Awesome CSS
 config.autoAddCss = false; // Disable auto-adding CSS
 
 const poppins = Poppins({

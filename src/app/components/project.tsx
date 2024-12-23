@@ -12,18 +12,18 @@ export default function Project() {
           </Link>
         </div>
         <div className="buttons">
-          <a
+          <Link
             href="https://vercel.com/muheeb-ur-rehmans-projects"
             target="_blank"
           >
             <button>Vercel</button>
-          </a>
-          <a href="https://github.com/MuheebUrRehman/" target="_blank">
+          </Link>
+          <Link href="https://github.com/MuheebUrRehman/" target="_blank">
             <button>Github</button>
-          </a>
-          <a href="/aMuheebCV-webdev.pdf" target="_blank">
+          </Link>
+          <Link href="/aMuheebCV-webdev.pdf" target="_blank">
             <button>Resume</button>
-          </a>
+          </Link>
         </div>
       </div>
     </section>

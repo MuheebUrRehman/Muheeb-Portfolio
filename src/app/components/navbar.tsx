@@ -5,7 +5,9 @@ export default function Navbar() {
   return (
     <nav>
       <div className="nav-main">
-        <Image src="/logomuheeb.png" alt="" height={120} width={300} />
+        <Link href="#home-section">
+          <Image src="/logomuheeb.png" alt="" height={120} width={300} />
+        </Link>
         <ul className="pages">
           <li>
             <Link href="#home-section">Home</Link>

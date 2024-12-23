@@ -49,7 +49,11 @@ nav {
   font-family: var(--font-poppins);
 }
 
-@media (max-width: 720px) {
+.pages li a:hover {
+  border-bottom: 4px solid #20c997;
+}
+
+@media (max-width: 768px) {
   .nav-main {
     flex-direction: column;
     height: 15vh;
@@ -70,16 +74,16 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin: auto;
-  height: 75vh;
+  height: 80vh;
 }
 
 .text {
   display: flex;
   flex-direction: column;
   /* gap: 20px; */
-  height: 80%;
+  height: 70%;
   justify-content: space-between;
-  width: 44%;
+  width: 42%;
 }
 
 .text h3 {
@@ -123,9 +127,9 @@ nav {
   color: #f8f9fa;
 }
 
-.text button {
+button {
   cursor: pointer;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 3rem;
   background-color: #007bff;
   color: #f8f9fa;
   font-size: 1.5rem;
@@ -134,13 +138,11 @@ nav {
   font-family: var(--font-poppins);
 }
 
-.text a button:hover {
-  background-color: #20c997;
-  color: black;
-  transition: 0.1s ease-in 0.1s;
+button:active {
+  transform: scale(0.95);
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   .carosel-main {
     flex-direction: column;
     justify-content: space-between;
@@ -207,16 +209,16 @@ nav {
   height: 80%;
 }
 
-.edu-content li {
+.edu-content,
+.skill-content,
+.cert-content li {
   font-size: 1.25rem;
   list-style-type: square;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   .about-main {
-    height: 70vh;
     flex-direction: column;
-    justify-content: space-between;
   }
   .about-info {
     width: 80%;
@@ -264,18 +266,7 @@ nav {
   justify-content: space-between;
 }
 
-.buttons button {
-  cursor: pointer;
-  padding: 0.5rem 3rem;
-  background-color: #007bff;
-  color: #f8f9fa;
-  font-size: 1.5rem;
-  border-radius: 10px;
-  border: none;
-  font-family: var(--font-poppins);
-}
-
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   .buttons {
     flex-direction: column;
     justify-content: space-between;
@@ -353,19 +344,7 @@ textarea:focus {
   background-color: white;
 }
 
-.contact-submit,
-.contact-info button {
-  cursor: pointer;
-  padding: 0.5rem 3rem;
-  background-color: #007bff;
-  color: #f8f9fa;
-  font-size: 1.5rem;
-  border-radius: 10px;
-  border: none;
-  font-family: var(--font-poppins);
-}
-
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   .contact-main {
     gap: 30px;
     justify-content: space-between;
