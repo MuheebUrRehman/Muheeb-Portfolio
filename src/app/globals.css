@@ -63,6 +63,15 @@ nav {
   }
 }
 
+@media (min-width: 1536px) {
+  .nav-main {
+    height: 10vh;
+  }
+  .pages {
+    width: 50%;
+  }
+}
+
 /* carosel */
 .carosel {
   width: 100vw;
@@ -80,7 +89,6 @@ nav {
 .text {
   display: flex;
   flex-direction: column;
-  /* gap: 20px; */
   height: 70%;
   justify-content: space-between;
   width: 42%;
@@ -145,11 +153,20 @@ button:active {
 @media (max-width: 768px) {
   .carosel-main {
     flex-direction: column;
-    justify-content: space-between;
   }
   .text {
     width: 80%;
     height: 50%;
+  }
+}
+
+@media (min-width: 1536px) {
+  .carosel-main {
+    height: 60vh;
+  }
+  .text {
+    width: 60%;
+    height: 60%;
   }
 }
 
@@ -171,7 +188,7 @@ button:active {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 50%;
+  height: 65%;
 }
 
 .about-info h1 {
@@ -202,6 +219,10 @@ button:active {
   font-family: var(--font-poppins);
 }
 
+.heading a:hover {
+  border-bottom: 4px solid #007bff;
+}
+
 .edu-content {
   display: flex;
   flex-direction: column;
@@ -223,6 +244,16 @@ button:active {
   .about-info {
     width: 80%;
     height: 40%;
+  }
+}
+
+@media (min-width: 1536px) {
+  .about-main {
+    height: 60vh;
+  }
+  .about-info {
+    width: 50%;
+    height: 60%;
   }
 }
 
@@ -269,9 +300,18 @@ button:active {
 @media (max-width: 768px) {
   .buttons {
     flex-direction: column;
-    justify-content: space-between;
     height: 20%;
     align-items: center;
+  }
+}
+
+@media (min-width: 1536px) {
+  .project-main {
+    height: 60vh;
+  }
+  .project-slider {
+    width: 50%;
+    height: 60%;
   }
 }
 
@@ -323,7 +363,7 @@ form {
 }
 
 input {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   background-color: #343a40;
   border: none;
   padding: 5px;
@@ -331,8 +371,8 @@ input {
 }
 
 textarea {
-  height: 40%;
-  font-size: 1.5rem;
+  height: 45%;
+  font-size: 1.25rem;
   background-color: #343a40;
   border: none;
   padding: 5px;
@@ -353,6 +393,12 @@ textarea:focus {
   .contact-info,
   form {
     width: 75%;
+  }
+}
+
+@media (min-width: 1536px) {
+  .contact-main {
+    height: 50vh;
   }
 }
 

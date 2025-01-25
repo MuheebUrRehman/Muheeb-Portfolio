@@ -9,10 +9,12 @@ export default function Home() {
   return (
     <div id="home-section">
       <Navbar />
-      <Carosel />
-      <About />
-      <Project />
-      <Contact />
+      <main>
+        <Carosel />
+        <About />
+        <Project />
+        <Contact />
+      </main>
       <Footer />
     </div>
   );

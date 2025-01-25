@@ -14,7 +14,7 @@ export default function Carosel() {
             crafting sleek, user-friendly websites with a touch of elegance.
           </p>
           <Link href="#contact-section">
-            <button>contact me</button>
+            <button>Contact me</button>
           </Link>
         </div>
         <Image src="/carosel-pic.png" alt="" width={400} height={400} />
